@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&family=Tektur:wght@500&family=Ubuntu:wght@300&display=swap");
+:root {
+  --primary-app-color: #02203c;
+  --secondary-app-color: #001528;
+  --standout-color: #fffb00;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.herosection {
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  clip-path: polygon(0 0, 100% 0, 100% 81%, 48% 100%, 48% 100%, 0 83%);
+}
+
+.nav-items {
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+  font-family: Ubuntu;
+}
+
+.brand-name {
+  font-family: Tektur;
+  color: white;
+  /* font-weight: 1000; */
+  font-size: 2rem;
+}
+
+.px-10 {
+  padding-inline: 90px;
+}
+
+.herosection2 {
+  padding: 60px;
+}
+
+.im-text-section {
+  padding: 52px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.im-text {
+  font-family: Ubuntu;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.name-im-text {
+  color: var(--standout-color);
+  font-size: 28px;
+}
+
+.im-text-enthu {
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.9rem;
+}
+
+.im-text-head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.btn-hireme {
+  font-size: 1rem;
+  font-family: Ubuntu;
+  color: white;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+}
+
+.btn-hireme:hover {
+  transform: translateY(-5px);
+  background-color: var(--standout-color);
+  color: #1c1c1c;
+}
+
+.btn-resume {
+  font-size: 1rem;
+  font-family: Ubuntu;
+  color: white;
+  background: red;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-resume:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes Anim {
+  0% {
+    tranform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.custom-img {
+  width: 300px;
+  object-fit: contain;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+  border: 1px solid white;
+}
+
+/* about me section */
+
+.aboutme-text {
+  font-family: Ubuntu;
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.why-text {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.aboutme-inside {
+  width: 70%;
+  margin-inline: auto;
+  text-align: justify;
+}
+
+.anim {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-self {
+  opacity: 0.9;
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.few-highlights {
+  font-family: Ubuntu;
+}
+
+.few-text {
+  font-family: Ubuntu;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.few-list {
+  opacity: 0.9;
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Resume css */
+
+.resume-options {
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.resume-options:hover {
+  width: 100%;
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  color: white;
+}
+
+.icons-span {
+  margin-block: 24px;
+  margin-inline: 24px;
+  color: white;
+}
+
+.selected {
+  width: 100%;
+  color: white;
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+}
+
+.bg-new {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+}
+
+.resume-outer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-app-color);
+  color: white;
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+}
+
+.resume-section {
+  background-color: white;
+  box-shadow: 10px 10px 31px 2px #1c1c1c;
+  margin-top: 42px;
+}
+
+/* contact me section */
+
+.contact-me-sec {
+  justify-content: space-between;
+  color: white;
+}
+
+.relative-bg {
+  clip-path: polygon(0 5%, 100% 14%, 100% 80%, 0 96%);
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+
+.contact-inner-part {
+  padding-block: 118px;
+}
+
+.px-9 {
+  padding-inline: 90px;
+}
+
+.flex-rows {
+  flex-direction: rows;
+  justify-content: space-between;
+}
+
+.navbar-option-mobile {
+  display: none;
+}
+/* making responsive */
+
+@media (max-width: 786px) {
+  .navbar-option-mobile {
+    display: block;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    z-index: 44;
+  }
+  .flex-rows {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navbar-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    transform: translateX(-700px);
+  }
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-fixed-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    /* transform: translateX(-700px); */
+  }
+  .px-9 {
+    padding-inline: 0px;
+  }
+  .nav-items {
+    padding-block: 20px;
+  }
+  .brand-name {
+    font-size: 1.4rem;
+    padding-inline: 22px;
+  }
+  .bars {
+    height: 4px;
+    width: 40px;
+    background: white;
+    float: right;
+    z-index: 33;
+    transform: translateX(55px) translateY(30px);
+  }
+  .bars::before {
+    display: block;
+    position: relative;
+    top: 9px;
+    content: "";
+    color: white;
+    width: 40px;
+    height: 4px;
+    background: white;
+  }
+  .bars::after {
+    display: block;
+    position: relative;
+    bottom: 12px;
+    content: "";
+    color: white;
+    width: 40px;
+    height: 4px;
+    background: white;
+  }
+  .im-text {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .name-im-text {
+    font-size: 1.5rem;
+  }
+
+  .im-text-enthu {
+    font-size: 1.7rem;
+  }
+
+  .btn-hireme {
+    font-size: 0.8rem;
+  }
+  .btn-resume {
+    font-size: 0.8rem;
+  }
+  .aboutme-text {
+    font-size: 2.7rem;
+  }
+  .why-text {
+    font-size: 1rem;
+  }
+}

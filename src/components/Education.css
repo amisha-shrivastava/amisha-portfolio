@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&family=Tektur:wght@500&family=Ubuntu:wght@300&display=swap");
+
+.details {
+  text-align: left;
+}
+.university-name {
+  font-family: Ubuntu;
+  color: red;
+  font-size: 1.4 rem;
+  font-weight: 800;
+}
+
+.university-degree {
+  font-family: Ubuntu;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #1c1c1c;
+  text-transform: uppercase;
+}
+
+.year-passed-out {
+  font-family: monospace;
+  font-size: 1rem;
+  background: var(--standout-color);
+  color: #1c1c1c;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
