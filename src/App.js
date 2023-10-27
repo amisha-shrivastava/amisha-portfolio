@@ -80,7 +80,7 @@ export default function App() {
                   Hire me
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1tMNKI2V3EFTfcfb-O4lxnncr_Sbitrdv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/15q789z64UCjw4NWx0bsBPs0lio4Tcxsl/view?usp=sharing"
                   className="btn-resume"
                 >
                   Get Resume
